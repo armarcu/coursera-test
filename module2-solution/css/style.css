@@ -1,8 +1,8 @@
 
 <style>
 body {
-  background-color: gray;
-  font-size: 130%;
+ /* background-color: gray;
+  font-size: 130%;*/
 }
 
 /********** Base styles **********/
@@ -10,25 +10,20 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Helvetica;
 }
 h1 {
-  margin-bottom: 35px;
-   text-align: center;
-   margin-top: 40px;  
-font-family: Helvetica;
+	margin-bottom: 35px;
+	text-align: center;
+	margin-top: 40px;  
+	
 }
 
 h2 {
- /* margin-bottom: 5px;*/
-  margin-top: 0;
-  	font-size: 20px;
-  text-align: center;   
-   border: 1px solid black;
-   width: 140px;
-   float: right;
- /*   margin-bottom: 5px;
-    position: relative;
-    right: 0;*/
+  	text-align: center;   
+  	border: 1px solid black;
+  	width: 140px;
+  	float: right;
 }
 
 
@@ -40,52 +35,19 @@ h2 {
 }
 
 p {
- /* border: 5px solid black;
-  background-color: gray;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  
-  color: black;*/
-  font-family: Helvetica;
-  padding: 10px;
-  margin-top: 30px;
-  overflow: auto;
-  clear: right;
-text-align: left; 
+   padding: 10px;
+   clear: right;/*overright the float to right*/
 }
 
 section {
-  border: 1px solid black;
-  background-color: #a7a7a7;
-   height: 120px;
-   margin-right: 5%;
-  margin-left: 5%;
-  margin-bottom: 10px;
-  margin-top: 10px;
-
-
-  font-family: Helvetica;
-  color: black;
-  /*padding: 10px;*/
-  overflow: hidden;
+	border: 1px solid black;
+	background-color: #a7a7a7;
+	height: 120px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: black;
+	overflow: hidden;
 }
-
-.first{
-	margin-left: 7.5%;
-	margin-right:2.5%;
-}
-
-.middle{
-	margin-left: 5%;
-	margin-right:5%;
-}
-.last{
-	margin-left: 2.5%;
-	margin-right:7.5%;
-}
-
 
 /* Simple Responsive Framework. */
 .row {
